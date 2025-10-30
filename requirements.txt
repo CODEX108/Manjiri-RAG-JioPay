@@ -1,0 +1,9 @@
+gradio
+sentence-transformers
+faiss-cpu
+numpy
+transformers
+torch
+sentencepiece
+einops
+accelerate

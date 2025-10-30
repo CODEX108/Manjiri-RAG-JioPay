@@ -1,0 +1,108 @@
+/* Main container styling */
+.gradio-container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+/* Header styling */
+.header-container {
+    background: linear-gradient(135deg, #007AFF 0%, #0052CC 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 122, 255, 0.3);
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+/* Input section styling */
+.input-section {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #e9ecef;
+}
+
+/* Button styling */
+.custom-button {
+    background: linear-gradient(135deg, #007AFF 0%, #0052CC 100%) !important;
+    color: white !important;
+    border: none !important;
+    padding: 12px 30px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 8px rgba(0, 122, 255, 0.3) !important;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(0, 122, 255, 0.4) !important;
+}
+
+/* Output section styling */
+.output-section {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Accordion styling */
+.accordion-header {
+    background: #e9ecef !important;
+    color: #495057 !important;
+    font-weight: 600 !important;
+}
+
+/* Footer styling */
+.footer-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #e9ecef;
+    color: #6c757d;
+}
+
+/* Examples styling */
+.examples-container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    margin-top: 20px;
+}
+
+/* Logo placeholder */
+.logo-placeholder {
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
