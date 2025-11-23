@@ -61,8 +61,3 @@ The architecture processes JioPay documentation through multiple chunking strate
 
 A **detailed ablation report** is available in the repository:  
 📘 [`RAG_Report.pdf`](./RAG_Report.pdf)
-
----
-
-**Developed by:** *Team Manjiri — RAG_JioPay_BOT Project*  
-**Repository:** [https://github.com/CODEX108/Manjiri-RAG-JioPay](https://github.com/CODEX108/Manjiri-RAG-JioPay)
