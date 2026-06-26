@@ -1,4 +1,4 @@
-# 🧠 RAG-JioPay
+# 🧠 RAG-Chatbot
 
 This report presents a comprehensive analysis of a **production-grade Retrieval-Augmented Generation (RAG) chatbot** developed for **JioPay customer support**.  
 
