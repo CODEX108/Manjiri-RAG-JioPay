@@ -15,7 +15,7 @@ The RAG system consists of three main components:
 - **Retrieval System**  
 - **Generation Module**
 
-The architecture processes JioPay documentation through multiple chunking strategies, embeds text using various models, and retrieves relevant context for **LLM-based answer generation**.
+The architecture processes documentation through multiple chunking strategies, embeds text using various models, and retrieves relevant context for **LLM-based answer generation**.
 
 ---
 
@@ -26,8 +26,6 @@ The architecture processes JioPay documentation through multiple chunking strate
 - **Embedding System:** Three models compared; **E5** selected for optimal performance  
 - **Vector Store:** **FAISS** indices for efficient similarity search  
 - **Generation:** **Flan-T5 model** for context-grounded response generation  
-- **Production Deployment:** [Custom Web Application](https://jiopay-flow.lovable.app)  
-- **Alternative Deployment:** [Hugging Face Spaces](https://huggingface.co/spaces/Manjiri/RAG_JioPay_BOT)
 
 ---
 
