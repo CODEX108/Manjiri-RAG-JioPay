@@ -1,6 +1,6 @@
 # 🧠 RAG-Chatbot
 
-This report presents a comprehensive analysis of a **production-grade Retrieval-Augmented Generation (RAG) chatbot** developed for **JioPay customer support**.  
+This report presents a comprehensive analysis of a **production-grade Retrieval-Augmented Generation (RAG) chatbot**
 
 The system implements **five distinct chunking strategies**, **three embedding models**, and **three data ingestion pipelines**. Through systematic ablation studies, we evaluate the performance impact of different architectural choices on **retrieval accuracy**, **generation quality**, and **system latency**.  
 
@@ -21,7 +21,6 @@ The architecture processes documentation through multiple chunking strategies, e
 
 ## ⚙️ Architecture Components
 
-- **Data Sources:** JioPay help center, business documentation, and FAQ repositories  
 - **Chunking Module:** Five strategies evaluated; **Semantic chunking** selected for production  
 - **Embedding System:** Three models compared; **E5** selected for optimal performance  
 - **Vector Store:** **FAISS** indices for efficient similarity search  
